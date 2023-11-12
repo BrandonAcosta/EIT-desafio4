@@ -1,0 +1,103 @@
+
+/*
+    Bg Color 1  =   #e11364
+    Bg Color 2  =   #bc105c
+    Bg Color 3  =   #e96093
+    Color Font  =   #9c0037
+    Color Border=   #9c0037
+    Color Button=   #2c8f20
+ */
+html{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #e11364;
+    display: flex;
+    flex-flow: column;
+    padding: 1rem 2rem;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    border-radius: 0.25rem;
+    margin: 2rem 0;
+    padding: 0 1rem;
+    padding-bottom: 3rem;
+}
+
+h1{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+
+section h3{
+    color: white;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 1rem 0;
+}
+
+ div h3{
+    border-bottom: #9c0037 dotted;
+    color:#9c0037;
+    display: flex;
+    justify-content: end;
+    width: 98%;
+ }
+
+ img{
+    margin: 1.2rem 0;
+    width: 98%;
+ }
+
+ a{
+    border-radius: 0.25rem;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    text-decoration: none;
+ }
+
+ /* Helpers */
+
+.button-style{
+    background-color: #2c8f20;
+}
+
+.footpage{
+    background-color: #e96093;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.game-container{
+    background-color: #bc105c;
+}
+
+.game-card{
+    align-items: center;
+    background-color: white;
+    border-radius: 0.25rem;
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+    padding-bottom: 1rem;
+}
+
+.Header-style{
+    background-color:#bc105c;
+    border: 0.25rem solid white;
+    border-bottom: none ;
+    border-top: none;
+}
+

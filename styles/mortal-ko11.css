@@ -1,0 +1,101 @@
+body{
+    background-color: #e11364;
+    display: flex;
+    flex-flow: column;
+    margin: 0;
+    padding: 1rem 2rem;
+}
+header{
+    align-items: center;
+    display: flex;
+    height: 20vh;
+    width: 100%;
+}
+h1{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+    margin-left: 10rem;
+    -webkit-text-stroke: 1px black;
+}
+section{
+    border-radius: 0.25rem;
+    margin: 2rem 0;
+    padding: 0 1rem;
+    padding-bottom: 3rem;
+}
+section h3{
+    color: white;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 1rem 0;
+}
+img{
+    margin: 0.5rem;
+    width: 25rem;
+}
+iframe{
+    padding: 0.25rem;
+    height: 70vh;
+    width: 100%;
+}
+
+/* Helpers */
+.game-container{
+    background-color: #bc105c;
+}
+.header-moko11{
+    background-image:url(../img/Mo-Ko/logo.jpg) ;
+    background-size: cover;
+    background-position-y: 45%;
+    background-position-x: 60%;
+    border: 0.25rem solid white;
+    border-bottom: none ;
+    border-top: none;
+}
+.game-card{
+    align-items: center;
+    background-color: white;
+    border-radius: 0.25rem;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+}
+.galery{
+    display: flex;
+    flex-flow: column;
+    padding: 0.25rem;
+}
+.footpage{
+    background-color: #e96093;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+a:link{
+    color:white ;
+    text-decoration: none;
+}
+
+a:visited{
+    color:white ;
+}
+
+a:active{
+    background-color: none;
+    color: grey;
+}
+
+a:hover h1{
+    background-color:#bc105d84;
+    color: white ;
+}
+
+@media (max-width:960px){
+    .game-card{
+        display: block;
+    }
+}

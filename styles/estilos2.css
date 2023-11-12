@@ -1,0 +1,136 @@
+/*
+ C1                    =   #1a0025
+ C1    Transparency    =   #1a0025c0
+ C2                    =   #52faed
+ C2    Transparency    =   #52faeca5
+ C3                    =   #f2a018
+ */
+html{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(../img/mainStyle2/bg5.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin-top: 3rem;
+    padding: 1rem 2rem;
+}
+header{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 94.7%;
+}
+section{
+    border-radius: 0.25rem;
+    margin: 2rem 0;
+    padding: 0 1rem;
+    padding-bottom: 3rem;
+}
+h1{
+    color: white;
+    font-family: 'Infinite', Arial;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+    -webkit-text-stroke:1px #f2a018 ;
+}
+img{
+    margin: 1.2rem 0;
+    width: 40%;
+    border: 1px solid #52faed;
+    border-radius: 0.25rem;
+}
+p{
+    font-family: 'Barlow Condensed',Arial;
+    font-weight: 400;
+}
+a{
+    border: 2px solid #52faed;
+    border-radius: 0.25rem;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    text-decoration: none;
+ }
+section h3{
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Infinite', Arial;
+    margin: 0;
+    padding: 1rem 0;
+    text-align: center;
+    -webkit-text-stroke:1px #f2a018 ;
+}
+section div h3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    padding: 1rem 0;
+    text-align: center;
+    -webkit-text-stroke:0px #f2a018 ;
+}
+
+/* helpers */
+
+.Header-style{
+    background-color: #1a0025;
+}
+.game-container{
+    background-color: #1a0025c0;
+    display: flex;
+    flex-flow: column;
+    justify-content:space-around;
+}
+.carrusel{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    overflow-y: hidden;
+    height: 40rem;
+}
+.game-card{
+    align-items: center;
+    background-color: #52faeca5;
+    border: 2px solid #52faed;
+    border-radius: 0.25rem;
+    display: flex;
+    flex-flow: column;
+    flex: 1 0 auto;
+    margin:1rem 2rem;
+    padding: 0 1rem;
+    padding-bottom: 1rem;
+    width: 60%;
+}
+.button-style{
+    background-color: #f2a018;
+}
+.footpage{
+    background-color: #1a0025c0;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+/* Pseudoclases */
+
+.carrusel::-webkit-scrollbar{
+    height: 5px;
+}
+.carrusel::-webkit-scrollbar-thumb{
+    background-color:#52faed ;
+    border-radius: 3px;
+}
+html::-webkit-scrollbar{
+    width: 7px;
+}
+html::-webkit-scrollbar-thumb{
+    background-color:#52faed ;
+    border-radius: 5px;
+}
